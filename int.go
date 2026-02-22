@@ -1,7 +1,9 @@
 package main
 
-func main ()  {
+import "fmt"
+
+func main() {
 	var smallpositive uint8
 	smallpositive = 10
-	fmt.println(smallpositive)
+	fmt.Println(smallpositive)
 }
